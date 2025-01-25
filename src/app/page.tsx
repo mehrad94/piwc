@@ -1,5 +1,5 @@
-import { Header, TopHeader } from '@/components'
-import CustomCarousel from '@/components/Carousel'
+import { DataHolder, Header, TopHeader } from '@/components'
+import CustomCarousel from '@/components/CustomCarousel'
 import Gallery from '@/components/Gallery'
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <TopHeader />
       <Header />
       <CustomCarousel />
+      <DataHolder />
       <Gallery />
     </div>
   )
