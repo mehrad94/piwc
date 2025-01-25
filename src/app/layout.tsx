@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
-import '../../node_modules/embla-carousel/'
 
 const iranSans = localFont({
   src: [
@@ -67,7 +66,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='fa' dir='rtl'>
-      <body className={iranSans.className}>{children}</body>
+      <body className={`${iranSans.className} bg-white`}>{children}</body>
     </html>
   )
 }
