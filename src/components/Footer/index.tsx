@@ -1,24 +1,34 @@
 'use client'
 import Image from 'next/image'
-import React from 'react'
+import { BsTelephone } from 'react-icons/bs'
+import { IoLocationOutline } from 'react-icons/io5'
+import { MdOutlineEmail } from 'react-icons/md'
 
 const Footer = () => {
   return (
-    <footer className='w-full bg-primary py-6'>
+    <footer className='w-full bg-primary py-6 !text-white'>
       <div className='container mx-auto py-4 justify-between items-center w-full grid grid-cols-1 md:grid-cols-3 gap-4'>
-        <div className='w-full flex items-center'>
+        <div className='w-full flex items-center gap-3 col-span-2'>
           <Image src={'/logo.avif'} width={100} height={100} alt='' className='min-w-[100px] max-w-[100px] max-h-[100px]' />
-          <div className='text-[10px] font-light h-full justify-between flex flex-col gap-2'>
-            <div className='flex gap-2'>
-              <p>Email:</p>
+          <div className='text-[12px] font-light h-full justify-between flex flex-col gap-3'>
+            <div className='flex gap-2 font-mono text-white'>
+              <p>
+                <MdOutlineEmail size={20} />
+              </p>
               <p>piwc.aurora@pentecost.com</p>
             </div>
-            <div className='flex gap-2'>
-              <p>Phone:</p>
-              <p>416-726-1007</p>
+            <div className='flex gap-2 font-mono underline'>
+              <p>
+                <BsTelephone size={20} />
+              </p>
+              <a href='tel:+14167261007' className='text-white'>
+                416-726-1007
+              </a>
             </div>
-            <div className='flex gap-2'>
-              <p>Location:</p>
+            <div className='flex gap-2 font-mono'>
+              <p>
+                <IoLocationOutline size={20} />
+              </p>
               <p>390 Industrial PKWay, South Aurora ON L4G 3VF</p>
             </div>
           </div>

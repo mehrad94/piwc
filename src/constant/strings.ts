@@ -5,3 +5,4 @@ export const YOUTUBE_LINK = 'https://youtube.com'
 
 export const WEBSITE_NAME = 'کلیسای مسیحیان ایرانی'
 export const GALLERY_TITLE = 'گالری'
+export const UPCOMING_EVENTS_TITLE = 'رویدادهای پیش رو'
