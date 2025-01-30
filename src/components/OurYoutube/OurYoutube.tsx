@@ -47,7 +47,7 @@ const OurYoutube: React.FC<OurYoutubeProps> = ({ playlists }) => {
             modules={[EffectCoverflow, Pagination]}
             className='mySwiper'
           >
-            {playlists.map((playlist) => {
+            {playlists?.map((playlist) => {
               return (
                 <SwiperSlide key={playlist.id}>
                   <div className='flex w-full relative bg-red-600 h-[400px] min-h-[300px] rounded-lg justify-center items-center'>
