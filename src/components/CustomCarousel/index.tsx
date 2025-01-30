@@ -7,7 +7,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 const CustomCarousel = () => {
   return (
     <div className='' style={{ direction: 'ltr' }}>
-      <Carousel showStatus={false} infiniteLoop swipeable={false}>
+      <Carousel showStatus={false} infiniteLoop swipeable={false} showThumbs={false}>
         {/* Slide 1 */}
         <div className='relative w-full h-[80vh]'>
           {/* Desktop Image */}
