@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='w-full flex justify-between items-center px-8 text-[10px] font-light'>
+        <div className='w-full flex justify-between items-center px-8 text-[14px] font-light'>
           <div className='flex flex-col gap-1'>
             <h2 className='font-extrabold'>{'دسترسی سریع'}</h2>
             <p>{'درباره ما'}</p>

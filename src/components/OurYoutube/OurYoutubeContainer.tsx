@@ -2,7 +2,7 @@ import OurYoutube from './OurYoutube'
 
 export const OurYoutubeContainer = async () => {
   try {
-    const response = await fetch('http://localhost:3000/api/youtube/playlist')
+    const response = await fetch('https://piwcaurora.com/api/youtube/playlist')
     const playlist = await response.json()
     console.log({ playlist })
     return <OurYoutube playlists={playlist.data.items} />
