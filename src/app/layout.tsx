@@ -55,8 +55,8 @@ const iranSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'PIWC AURORA',
-  description: 'کلیسای پنطیکاستی ایرانیان ارورا',
+  title: 'کلیسا فارسی زبان آرورا',
+  description: 'کلیسای فارسی زبان در ارورا  تورنتو',
 }
 
 export default function RootLayout({

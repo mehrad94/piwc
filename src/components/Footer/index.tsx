@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import Link from 'next/link'
 import { BsTelephone } from 'react-icons/bs'
 import { IoLocationOutline } from 'react-icons/io5'
 import { MdOutlineEmail } from 'react-icons/md'
@@ -15,7 +16,9 @@ const Footer = () => {
               <p>
                 <MdOutlineEmail size={20} />
               </p>
-              <p>piwc.aurora@pentecost.com</p>
+              <Link href='mailto:piwc.aurora@pentecost.com'>
+                <p>piwc.aurora@pentecost.com</p>
+              </Link>
             </div>
             <div className='flex gap-2 font-mono underline'>
               <p>
@@ -29,7 +32,9 @@ const Footer = () => {
               <p>
                 <IoLocationOutline size={20} />
               </p>
-              <p>390 Industrial PKWay, South Aurora ON L4G 3VF</p>
+              <Link rel='noopener noreferrer' target='_blank' href='https://maps.app.goo.gl/S3vzsbBSGFHqtC6F7'>
+                <p>390 Industrial PKWay, South Aurora ON L4G 3VF</p>
+              </Link>
             </div>
           </div>
         </div>
