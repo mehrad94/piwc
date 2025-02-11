@@ -19,7 +19,7 @@ const Introduction = () => {
           خداوند شما را برکت دهد،
             `}</p>
         </div>
-        <div className='grid grid-cols-3 grid-rows-1 gap-4 p-2 w-full  row-span-2 h-[400px]'>
+        <div className='grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-4 p-2 w-full  row-span-2 md:h-[400px]'>
           <div className='flex justify-center gap-2 items-center text-gray-900 flex-col'>
             <div className='bg-red-400 w-72 h-72 rounded-full relative overflow-hidden'>
               <Image src={'/maryam.jpeg'} alt='maryam' className='object-cover' fill />
@@ -31,7 +31,7 @@ const Introduction = () => {
             <div className='bg-red-400 w-72 h-72 rounded-full relative overflow-hidden'>
               <Image src={'/philip.jpeg'} alt='maryam' className='object-cover' fill />
             </div>
-            <p className='text-2xl font-bold'>{'پاستور فیلیپ'}</p>
+            <p className='text-2xl font-bold'>{'پاستور فیلیپ چمل'}</p>
             <p className='text-xl font-light'>{'عضو ارشد کلیسا'}</p>
           </div>
           <div className='flex justify-center gap-2 items-center text-gray-900 flex-col'>
